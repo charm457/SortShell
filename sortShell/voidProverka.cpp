@@ -5,8 +5,8 @@
 #include <algorithm>
 #include <cmath>
 #include <chrono>
-#include "sortShell.cpp"
-
+#include "voidProverka.hpp"
+#include "sortShell.hpp"
 using namespace std;
 using namespace chrono;
 

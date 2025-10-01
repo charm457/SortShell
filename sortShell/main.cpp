@@ -6,13 +6,11 @@
 #include <cmath>
 #include <chrono>
 
-#include "voidProverka.cpp"
+#include "voidProverka.hpp"
+#include "sortShell.hpp"     
 
 using namespace std;
 using namespace chrono;
-
-
-
 
 int main() {
     vector <int> lst_int;
@@ -27,18 +25,7 @@ int main() {
 
     mt19937 mt(time(nullptr));
 
-    vector <int> rand_3;
-    vector <int> rand_4;
     vector <int> rand_5;
-    vector <int> rand_6;
-
-    for (int i=0; i < 1000; i++) {
-        rand_3.push_back(mt());
-    }
-
-    for (int i=0; i < 10000; i++) {
-        rand_4.push_back(mt());
-    }
 
     for (int i=0; i < 100000; i++) {
         rand_5.push_back(mt());
@@ -46,4 +33,3 @@ int main() {
 
     proverka(rand_5, lst_int);
 }
-
