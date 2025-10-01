@@ -1,2 +1,27 @@
-#убераем все json файлы 
-.json
+# Файлы сборок
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.obj
+
+# Файлы сборки проекта (CMake, Make)
+build/
+out/
+cmake-build-debug/
+
+# Локальные файлы сборок
+Debug/
+Release/
+
+# Временные файлы
+*.swp
+*.swo
+*~
+
+# Папки IDE
+.vs/
+.vscode/
+*.iml
+.idea/
