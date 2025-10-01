@@ -25,3 +25,6 @@ Release/
 .vscode/
 *.iml
 .idea/
+
+# Файлы бин
+bin/
